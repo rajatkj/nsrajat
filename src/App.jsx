@@ -1,13 +1,13 @@
 import './App.scss';
 import Navbar from "./components/Navbar/Navbar";
+import Home from "./components/home/Home"
 
 function App() {
   return (
     <div>
       <section id="Homepage">
-         <Navbar />
-        {/* <Hero /> */}
-        <h1>Home</h1>
+        <Navbar />
+        <Home />
       </section>
       <section id="Experience">
       <h1>Experience</h1>
