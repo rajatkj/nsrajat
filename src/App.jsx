@@ -5,7 +5,7 @@ function App() {
   return (
     <div>
       <section id="Homepage">
-         <Navbar/>
+         <Navbar />
         {/* <Hero /> */}
         <h1>Home</h1>
       </section>
