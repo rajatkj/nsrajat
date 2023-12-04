@@ -1,6 +1,7 @@
 import './App.scss';
 import Navbar from "./components/Navbar/Navbar";
-import Home from "./components/home/Home"
+import Home from "./components/home/Home";
+import Skills from "./components/skills/Skills"
 
 function App() {
   return (
@@ -10,10 +11,9 @@ function App() {
         <Home />
       </section>
       <section id="Experience">
-      <h1>Experience</h1>
+      <Skills/>
       </section>
       <section>
-        <h1>Experience page 2</h1>
       </section>
       <section id="Portfolio">
       <h1>Portfolio</h1>
