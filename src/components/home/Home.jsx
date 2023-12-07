@@ -25,7 +25,10 @@ const Home = () => {
                     <motion.h1 >iOS Developer</motion.h1>
                     <motion.div className="buttons">
                         <motion.button>
-                            Contact Me!
+                            <a href="#Contact">Contact Me!</a>
+                        </motion.button>
+                        <motion.button>
+                            <a href="/cv/cv.docx" download="Rajat Kumar Senior iOS Developer">Download CV</a>
                         </motion.button>
                     </motion.div>
                 </motion.div>

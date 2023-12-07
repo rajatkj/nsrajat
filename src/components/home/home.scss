@@ -33,6 +33,7 @@
         }
 
         .buttons {
+            z-index: 1;
             button {
                 padding: 20px;
                 border: 1px solid white;
@@ -41,8 +42,15 @@
                 color: white;
                 margin-right: 20px;
                 cursor: pointer;
-                font-weight: 500;
-              }
+                font-weight: 900;
+            }
+
+            button:hover {
+                background-color: white;
+                color: black;
+                transform: scale(1.1);
+                transition: 0.5s;
+            }
         }
     }
 
@@ -71,5 +79,7 @@
         color: #ffffff09;
         width: 50%;
         font-weight: bold;
-      }
+        z-index: 0;
+        user-select: none
+    }
 }

@@ -22,9 +22,6 @@ function App() {
       <section id="Contact">
       <h1>Contact</h1>
       </section>
-      {/* Framer Motion Crash Course */}
-      {/* <Test/>
-    <Test/> */}
     </div>
   );
 }
