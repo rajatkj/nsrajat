@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import SkillIcons from "./skillIcons/SkillIcons"
 import Experience from "./experience/Experience"
 import "./skills.scss";

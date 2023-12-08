@@ -1,0 +1,23 @@
+@import "../../../App.scss";
+
+.hamburgerContainer {
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: white; 
+
+    height: 48px;
+
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+
+    .line {
+        position: absolute;
+        width: 40%;
+        border-radius: 100px;
+        background-color: black;
+        height: 2px;
+    }
+}

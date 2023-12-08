@@ -6,19 +6,16 @@ import Skills from "./components/skills/Skills"
 function App() {
   return (
     <div>
-      <section id="Homepage">
+      <section id="Home">
         <Navbar />
         <Home />
       </section>
-      <section id="Experience">
+      <section id="Skills">
       <Skills/>
       </section>
-      <section>
-      </section>
-      <section id="Portfolio">
+      <section id="Projects">
       <h1>Portfolio</h1>
       </section>
-      
       <section id="Contact">
       <h1>Contact</h1>
       </section>
