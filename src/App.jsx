@@ -2,7 +2,7 @@ import './App.scss';
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/home/Home";
 import Skills from "./components/skills/Skills"
-import Experience from './components/skills/experience/Experience';
+import Experience from './components/experience/Experience';
 
 function App() {
   return (
