@@ -4,7 +4,7 @@ import { useState } from "react";
 import Hamburger from "./Hamburger/Hamburger"
 
 const Navbar = () => {
-  const pages = ["Home", "Skills", "Projects", "Contact"];
+  const pages = ["Home", "Skills", "Experience", "Projects", "Contact"];
 
   const [open, setOpen] = useState(false);
 
@@ -31,7 +31,7 @@ const Navbar = () => {
             <ul className="navItems">
               { pages.map( (page) => (
 
-                  <motion.li key={ page }>
+                  <motion.li key={ page } whileHover={ { scale: 1.1 } }>
                     <div/>
                     <a href={"#" + page}>{page}</a>
                   </motion.li>
@@ -46,7 +46,7 @@ const Navbar = () => {
 
                         <motion.li key={ page }>
                           <div/>
-                          <a href={"#" + page}>{page}</a>
+                          <a href={"#" + page} >{page}</a>
                         </motion.li>
                     ))}
                   </ul>

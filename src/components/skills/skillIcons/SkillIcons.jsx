@@ -1,9 +1,10 @@
 import { motion } from "framer-motion";
+import "./skillicons.scss";
 
 const variants = {
   open: {
     transition: {
-      delay: 1.5,
+      delay: 2.5,
       staggerChildren: 0.1,
     },
   },
@@ -20,26 +21,18 @@ const itemVariants = {
     opacity: 1,
   },
   closed: {
-    y: 50,
+    y: 100,
     opacity: 0,
   },
 };
 
-const SkillIcons = () => {
-  
-
-    const skills = [
-        { name: "XCode", icon: "/icons/xcode.png"},
-        { name: "Swift", icon: "/icons/swift.png"},
-        { name: "Python", icon: "/icons/python.png"},
-        { name: "JSON", icon: "/icons/json.png"},
-        { name: "Git", icon: "/icons/git.png"},
-        { name: "CSS", icon: "/icons/css.png"},
-        { name: "iOS", icon: "/icons/apple.png"},
-      ];
+const SkillIcons = ( { title, skills } ) => {
 
     return (
         <div className="skillContainer" >
+          <div className="skillsTitle">
+              <img className="skillTitleImage" src={ title === "iOS" ? "/icons/apple.png" : "/icons/coding.png"} alt="skilltitle" />
+          </div>
           <motion.div className="skills-list" variants={ variants } initial="closed" whileInView="open">
             { skills.map( (skill) => (
 
