@@ -58,18 +58,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-{/* <div className="socials">
-              <a href="https://instagram.com">
-                <img src="/icons/instagram.png" alt="" />
-              </a>
-              <a href="https://instagram.com">
-                <img src="/icons/github.png" alt="" />
-              </a>
-              <a href="https://instagram.com">
-                <img src="/icons/linkedin.png" alt="" />
-              </a>
-              <a href="https://instagram.com">
-                <img src="/icons/mail.png" alt="" />
-              </a>
-            </div> */}
