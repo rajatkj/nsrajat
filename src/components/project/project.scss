@@ -1,0 +1,93 @@
+@import "../../App.scss";
+
+.project  {
+    height: calc(100vh - 100px);
+    position: relative;
+    margin-top: 5rem;
+    
+    .wrapper {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 0 0 5rem;
+        gap: 5rem;
+
+        .imageContainer {
+            display: flex;
+            align-items: center;
+            height: 100%;
+            width: 50%;
+            justify-content: center;
+            img {
+                height: calc(100vh - 200px);
+                position: absolute;
+                border-radius: 12px;
+                
+                &:nth-child(2) {
+                    transform: translateX(150px)
+                    translateY(-20px)
+                    rotate(25deg);
+                }
+
+                &:nth-child(1) {
+                    transform: translateX(-150px)
+                    translateY(-20px)
+                    rotate(-25deg);
+                }
+            }
+        }
+
+        .detailsContainer {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            text-align: left;
+            color: white;
+            .projectTitle {
+                font-size: 56px;
+                font-weight: 900;
+            }
+
+            ul {
+                overflow: auto;
+                width: 100%;
+                padding: 1rem;
+                li {
+                    font-size: medium;
+                    white-space: nowrap;
+                    padding: 4px;
+                }
+            }
+
+            .appstoreButton {
+                width: 180px;
+                height: 80px;
+                background: transparent;
+                border: 0;
+                img {
+                    width: 180px;
+                    height: 80px;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+    .projecttitle {
+        position: absolute;
+        font-size: 50vh;
+        bottom: -100px;
+        white-space: nowrap;
+        color: #ffffff09;
+        width: 100%;
+        font-weight: bold;
+        z-index: -1;
+        user-select: none
+    }
+    
+}
+

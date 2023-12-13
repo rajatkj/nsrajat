@@ -1,0 +1,18 @@
+@import "../../App.scss";
+
+.experience {
+    height: 100%;
+    position: relative;
+
+    .experienceTitle {
+        position: absolute;
+        font-size: 40vh;
+        top: -50px;
+        white-space: nowrap;
+        color: #ffffff09;
+        width: 100%;
+        font-weight: bold;
+        z-index: 0;
+        user-select: none;
+    }
+}
