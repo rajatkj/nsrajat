@@ -1,31 +1,18 @@
 @import "../../App.scss";
 
-.experienceContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 50%;
+.experience {
+    height: 100%;
+    position: relative;
 
-    .experience-item {
-        display: flex;
-        align-items: center;
-        margin-bottom: 20px;
-
-        .experience-year {
-            min-width: 20%; 
-            margin-right: 20px;
-        }
-
-        .experience-works {
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-    
-            .experience-work,
-            .experience-work-desc {
-                width: 100%;
-            }
-        }
-
+    .experienceTitle {
+        position: absolute;
+        font-size: 40vh;
+        top: -50px;
+        white-space: nowrap;
+        color: #ffffff09;
+        width: 100%;
+        font-weight: bold;
+        z-index: 0;
+        user-select: none;
     }
 }

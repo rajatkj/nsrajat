@@ -21,18 +21,18 @@ const Skills = () => {
     { name: "Git", icon: "/icons/git.png"},
   ];
     return (
-      <>
-      <img className="background" src="/background.jpg" alt="background" />
-      <div className="container">
-          <h1 className="title">Skills</h1>
-          <div className="wrapper">
-            <SkillIcons title="iOS" skills={iOSSkills}/>
-            <SkillIcons title="Misc" skills={miscSkills}/>
-          </div>
-            
-            {/* <Experience/> */}
-      </div>
-      </> 
+      <div className="skills">
+        <img className="background" src="/background.jpg" alt="background" />
+
+        <div className="container">
+            <div className="wrapper">
+              <SkillIcons title="iOS" skills={iOSSkills}/>
+              <SkillIcons title="Misc" skills={miscSkills}/>
+            </div>
+              {/* <Experience/> */}
+        </div>
+        <div className="skillstitle">Skills</div>
+      </div> 
     );
   };
 
