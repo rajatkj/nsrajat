@@ -39,7 +39,7 @@ const Home = () => {
             </motion.div>
             
             <div className="imageContainer">
-                <img src="/Rajat71.jpg" alt="" />
+                <img src="/IMG_2809.jpg" alt="" />
             </div>
         </div>
     );
